@@ -1,0 +1,133 @@
+.m-acc-charge-payment {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  /*.am-image-picker-list .am-image-picker-upload-btn:after, .am-image-picker-list .am-image-picker-upload-btn:before {
+        content: "\e6ed";
+    }*/
+}
+.m-acc-charge-payment-list-date .am-list-line .am-list-extra {
+  color: #28303B !important;
+}
+.m-acc-charge-payment-list-memo .am-list-line .am-input-label.am-input-label-5 {
+  padding: 0;
+  margin-right: 0;
+}
+.m-acc-charge-payment-list-memo .am-input-control > input {
+  font-size: 14px;
+}
+.m-acc-charge-payment-list-more {
+  padding: 10px;
+}
+.m-acc-charge-payment-list-amount .am-input-control input {
+  text-align: left;
+  font-family: 'PingFangSC-Medium';
+  font-size: 16px;
+  color: #33A100;
+}
+.m-acc-charge-payment-list-memo {
+  border-bottom: 0.5px solid #f1f1f1;
+}
+.m-acc-charge-payment-list-memo .am-list-line:after {
+  display: none !important;
+}
+.m-acc-charge-payment-list-memo .am-input-control input {
+  color: #28303B;
+}
+.m-acc-charge-payment-footer {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.m-acc-charge-payment-footer .am-button:before {
+  display: none;
+}
+.m-acc-charge-payment-footer .saveAndNew {
+  background: #FAAD14;
+  box-shadow: 0 2px 10px 0 rgba(250, 173, 20, 0.3);
+  border-radius: 2px;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  box-sizing: initial;
+  width: 54%;
+  display: inline-block;
+  margin-right: 10px;
+}
+.m-acc-charge-payment-footer .save {
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 1px 4px 0 rgba(146, 160, 173, 0.1);
+  border-radius: 2px;
+  color: #FAAD14;
+  height: 40px;
+  line-height: 40px;
+  box-sizing: initial;
+  width: 32%;
+  display: inline-block;
+}
+.m-acc-charge-payment .am-list {
+  flex: 1;
+  display: flex;
+  overflow: scroll;
+}
+.m-acc-charge-payment .am-list .am-list-body {
+  width: 100%;
+  background-color: inherit;
+  border: none;
+  /*safari*/
+}
+.m-acc-charge-payment .am-list .am-list-body .am-list-item-active {
+  background-color: #EDF8FE;
+}
+.m-acc-charge-payment .am-list .am-list-body .am-list-line {
+  border-bottom: 0.5px solid #ddd;
+  /*safari*/
+}
+.m-acc-charge-payment .am-list .am-list-body:before {
+  display: none;
+}
+.m-acc-charge-payment .am-list .am-list-body:after {
+  display: none;
+}
+.m-acc-charge-payment .am-list-item .am-list-line .am-list-extra {
+  text-align: left;
+}
+.m-acc-charge-payment .am-list-item .am-list-line .am-list-content {
+  width: 85px;
+  flex: none;
+  font-family: 'PingFangSC-Regular';
+  font-size: 14px;
+  color: #6B7887;
+}
+.m-acc-charge-payment .am-list-item .am-list-line .am-list-extra {
+  font-family: 'PingFangSC-Regular';
+  font-size: 14px;
+  color: #92A0AD;
+}
+.m-acc-charge-payment .am-list-item .am-input-label.am-input-label-5 {
+  font-family: 'PingFangSC-Regular';
+  font-size: 14px;
+  color: #6B7887;
+}
+.m-acc-charge-payment .am-list-item .am-list-line .am-list-arrow {
+  position: absolute;
+  right: 10px;
+}
+.m-acc-charge-payment .am-tag {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.m-acc-charge-payment .am-tag-active {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjE0cHgiIGhlaWdodD0iMTRweCIgdmlld0JveD0iMCAwIDE0IDE0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0Ny4xICg0NTQyMikgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+Q29tYmluZWQgU2hhcGU8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0i5rWB5rC0IiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iMDUt54K55Ye75qCH562+LeW9leWFpeWQjiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI0MS4wMDAwMDAsIC01MTMuMDAwMDAwKSIgZmlsbD0iIzE4OUNGNiI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yNTUsNTEzIEwyNTUsNTI3IEwyNDEsNTI3IEwyNTUsNTEzIFogTTI0OC45MzYzOTcsNTI1LjgwMjk1OCBDMjQ4Ljk2NDkwOSw1MjUuODMxMTc3IDI0OC45OTYyMjQsNTI1Ljg1NzM4NSAyNDkuMDMwMjQzLDUyNS44ODEyMDUgQzI0OS4zNDkxMzQsNTI2LjEwNDQ5NSAyNDkuNzg1OTYzLDUyNi4wMjIzMzggMjUwLjAxMDg1OCw1MjUuNzAxMTU0IEwyNTMuNzg1MDUyLDUyMC4zMTEwNDYgQzI1NC4wMTc5ODUsNTE5Ljk3ODM4NCAyNTMuOTM1NTM4LDUxOS41NDk3MzMgMjUzLjYxODg1NCw1MTkuMzI3OTg5IEMyNTMuMjk5OTYzLDUxOS4xMDQ2OTggMjUyLjg2MzEzNCw1MTkuMTg2ODU2IDI1Mi42MzgyMzksNTE5LjUwODAzOSBMMjQ5LjI2NTczMyw1MjQuMzI0NDc3IEwyNDcuNjk3NTA3LDUyMy4yMjYzOTQgQzI0Ny4zODM4NzYsNTIzLjAwNjc4NyAyNDYuOTQ3MDA3LDUyMy4wODM0NzkgMjQ2LjcyNTI2Miw1MjMuNDAwMTYzIEMyNDYuNTAxOTcyLDUyMy43MTkwNTQgMjQ2LjU3OTI4OSw1MjQuMTUyNDkzIDI0Ni44OTQ1LDUyNC4zNzMyMDcgTDI0OC45MzYzOTcsNTI1LjgwMjk1OCBaIiBpZD0iQ29tYmluZWQtU2hhcGUiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==) no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.am-modal-wrap .am-modal-content {
+  border-radius: 0;
+}
+.am-modal-wrap .am-list-body {
+  max-height: 200px;
+}
+.am-modal-wrap .am-list-body:after {
+  display: none !important;
+}

@@ -1,0 +1,106 @@
+.m-rpt-list {
+  flex: 1;
+  overflow: hidden;
+  font-size: 12px;
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+.m-rpt-list .body * {
+  box-sizing: initial !important;
+}
+.m-rpt-list .m-rpt-fi-balance-sheet-modal {
+  font-size: 15px;
+  color: #888;
+  height: 100%;
+  line-height: 1.5;
+  overflow: auto;
+  background: #fff;
+}
+.m-rpt-list .am-pull-to-refresh {
+  margin-top: 89px;
+}
+.m-rpt-list-expendModal .am-list-item.am-list-item-middle:nth-child(1) {
+  background: #EDF9E6;
+}
+.m-rpt-list-expendModal .am-list-item.am-list-item-middle:nth-child(1) .am-list-content {
+  color: #33A100;
+}
+.m-rpt-list-expendModal .am-list-item.am-list-item-middle:nth-child(1) .am-list-extra {
+  color: #33A100;
+}
+.m-rpt-list .hideRightContent {
+  display: none;
+}
+.m-rpt-list-modal .time {
+  background: #f8f8f8;
+  font-size: 14px;
+  display: flex;
+  height: 44px;
+  align-items: center;
+  padding-left: 20px;
+  position: fixed;
+  z-index: 100;
+  margin-top: 45px;
+  width: 100%;
+}
+.m-rpt-list-modal .time .dataLine {
+  margin-left: 20px;
+}
+.m-rpt-list-modal .time .am-list-item {
+  background-color: #f8f8f8 !important;
+}
+.m-rpt-list-modal-DatePicker .am-picker-popup-header {
+  background: #F8F8F8;
+}
+.m-rpt-list-modal-DatePicker .am-picker-popup-header-left {
+  color: #485360;
+}
+.m-rpt-list-modal-Picker .am-picker-popup-header {
+  background: #F8F8F8;
+}
+.m-rpt-list-modal-Picker .am-picker-popup-header-left {
+  color: #485360;
+}
+.m-rpt-list-modal .time .am-list-item .am-list-line {
+  padding-right: 0 !important;
+}
+.m-rpt-list-modal .time .am-list-item {
+  padding-left: 0 !important;
+}
+.m-rpt-list-modal .time .am-list-item .am-list-line .am-list-content,
+.m-rpt-list-modal .time .am-list-item .am-list-line .am-list-extra {
+  color: #6B7887;
+}
+.m-rpt-list-modal .time .am-list-line:after {
+  background-color: transparent !important;
+}
+.m-rpt-list-modal .time .am-list-item .am-list-line .am-list-arrow {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left: 6px;
+  transform: rotate(0deg) !important;
+  border: 5px solid transparent;
+  border-top: 5px solid #92A0AD;
+  position: relative;
+  top: 4px;
+  background-image: initial;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.m-rpt-list-modal-dataTerms .am-modal-content {
+  border-radius: 0 !important;
+  padding-top: 0 !important;
+}
+.m-rpt-list-modal-dataTerms .am-modal-content .am-modal-body {
+  padding: 0 !important;
+}
+.m-rpt-list-modal-dataTerms .am-modal-content .am-list-item {
+  padding-left: 0 !important;
+}
+.m-rpt-list-modal-dataTerms .am-modal-content .am-list-content {
+  padding-left: 20px !important;
+  font-size: 16px;
+}

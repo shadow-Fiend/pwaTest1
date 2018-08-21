@@ -1,0 +1,147 @@
+.m-rpt-tax {
+  flex: 1;
+  overflow: hidden;
+  height: 100%;
+  background: #f8f8f8;
+  position: relative;
+}
+.m-rpt-tax .body {
+  height: calc(100% - 50px);
+  background: #fff;
+}
+.m-rpt-tax .am-pull-to-refresh {
+  height: 100% !important;
+  background: #fff;
+  border-bottom: 1px solid #EAEAEA;
+}
+.m-rpt-tax .bgPhoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.m-rpt-tax .bgPhoto .loadingPhoto {
+  width: 60px;
+  height: 60px;
+  background: url(e333b83fbebad199369d6da1ff410b4c.gif) no-repeat !important;
+  background-size: cover !important;
+}
+.m-rpt-tax .bgPhoto .errorPhoto {
+  width: 113px;
+  height: 110px;
+  background: url(ad2cec0bb5d92212759e8589cd64dbbc.png) no-repeat !important;
+  background-size: cover !important;
+  margin-bottom: 15px;
+}
+.m-rpt-tax .bgPhoto .errorText {
+  color: #485360;
+  margin-bottom: 15px;
+}
+.m-rpt-tax .bgPhoto .refresh {
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px !important;
+  color: #FAAD14;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 1px 4px 0 rgba(146, 160, 173, 0.1);
+}
+.m-rpt-tax .taxWrapper {
+  background: #fff;
+}
+.m-rpt-tax .bgPhotoPng {
+  flex-direction: column;
+  font-size: 14px;
+}
+.m-rpt-tax .payments .single {
+  display: flex;
+  height: 50px;
+  padding: 0 40px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #EAEAEA;
+}
+.m-rpt-tax .am-flexbox-align-center {
+  background: #f8f8f8;
+}
+.m-rpt-tax .time {
+  background: #f8f8f8;
+  font-size: 14px;
+  display: flex;
+  height: 44px;
+  align-items: center;
+  padding-left: 20px;
+  border-bottom: 1px solid #EAEAEA;
+}
+.m-rpt-tax .time .dataLine {
+  margin-left: 20px;
+}
+.m-rpt-tax .time .am-list-item {
+  background-color: #f8f8f8 !important;
+}
+.m-rpt-tax-DatePicker .am-picker-popup-header {
+  background: #F8F8F8;
+}
+.m-rpt-tax-DatePicker .am-picker-popup-header-left {
+  color: #485360;
+}
+.m-rpt-tax-Picker .am-picker-popup-header {
+  background: #F8F8F8;
+}
+.m-rpt-tax-Picker .am-picker-popup-header-left {
+  color: #485360;
+}
+.m-rpt-tax .am-list-item .am-list-line {
+  padding-right: 0 !important;
+}
+.m-rpt-tax .am-list-item {
+  padding-left: 0 !important;
+}
+.m-rpt-tax .am-list-item .am-list-line .am-list-content,
+.m-rpt-tax .am-list-item .am-list-line .am-list-extra {
+  color: #6B7887;
+  font-size: 14px;
+}
+.m-rpt-tax .am-list-line:after {
+  background-color: transparent !important;
+}
+.m-rpt-tax .am-list-item .am-list-line .am-list-arrow {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left: 6px;
+  transform: rotate(0deg) !important;
+  border: 5px solid transparent;
+  border-top: 5px solid #92A0AD;
+  position: relative;
+  top: 4px;
+  background-image: initial;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.m-rpt-tax-dataTerms .am-modal-content {
+  border-radius: 0 !important;
+  padding-top: 0 !important;
+}
+.m-rpt-tax-dataTerms .am-modal-content .am-modal-body {
+  padding: 0 !important;
+}
+.m-rpt-tax-dataTerms .am-modal-content .am-list-item {
+  padding-left: 0 !important;
+}
+.m-rpt-tax-dataTerms .am-modal-content .am-list-content {
+  padding-left: 20px !important;
+  font-size: 16px;
+}
+html,
+body {
+  height: 100%;
+}
