@@ -1,0 +1,46 @@
+.m-sys-login {
+  background: #E8F4FF;
+  height: 100%;
+}
+.m-sys-login-header {
+  height: 44px;
+  padding-top: 32px;
+  font-size: 16px;
+  color: #189CF6;
+}
+.m-sys-login-content {
+  width: 294px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 130px;
+}
+.m-sys-login-content .rriconfont::before {
+  color: #92A0AD;
+}
+.m-sys-login-content .am-list-body,
+.m-sys-login-content .am-list-item,
+.m-sys-login-content .am-button {
+  border-radius: 88px;
+}
+.m-sys-login-content .am-list-body::before,
+.m-sys-login-content .am-list-body::after {
+  background-color: transparent !important;
+}
+.m-sys-login-content .am-list-item .am-input-control input {
+  font-size: 14px;
+}
+.m-sys-login-content .am-whitespace-xl {
+  height: 30px;
+}
+.m-sys-login-content .am-button-primary {
+  background-image: linear-gradient(0deg, #189CF6 0%, #6ACFFF 100%);
+  box-shadow: 0 2px 6px 0 rgba(22, 155, 246, 0.08);
+}
+.m-sys-login-forgetPassword {
+  color: #6A7886;
+}
+.m-sys-login-footer {
+  height: 44px;
+  color: #91A0AD;
+}

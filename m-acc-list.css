@@ -1,0 +1,288 @@
+.m-acc-list {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+.m-acc-list-middle {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  background: #FBFBFB;
+  line-height: 40px;
+  padding: 0 10px;
+  color: #6B7887;
+  position: relative;
+}
+.m-acc-list-middle i {
+  font-size: 12px;
+  padding-left: 5px;
+}
+.m-acc-list-middle:after {
+  content: "";
+  position: absolute;
+  background-color: #ddd;
+  display: block;
+  z-index: 1;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  transform-origin: 50% 100%;
+  transform: scaleY(0.5);
+}
+.m-acc-list-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  overflow: scroll;
+  position: relative;
+}
+.m-acc-list-content-listAllInfo {
+  height: 100%;
+}
+.m-acc-list-content-listAllInfo > div {
+  height: 100%;
+}
+.m-acc-list-content-list .am-list {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.m-acc-list-content-list .am-list > div {
+  flex: 1;
+}
+.m-acc-list-content-list .am-list .am-list-body .am-list-item {
+  padding-left: 0;
+}
+.m-acc-list-content-list .am-list .am-list-body .am-list-item .am-list-line {
+  padding: 0 10px;
+}
+.m-acc-list-content-list .am-list .am-list-body {
+  border: none;
+  /*safari*/
+}
+.m-acc-list-content-list .am-list .am-list-body .list-view-section-body .am-list-line:after {
+  display: none;
+}
+.m-acc-list-content-list .am-list .am-list-body:before {
+  display: none;
+}
+.m-acc-list-content-list .am-list .am-list-body:after {
+  display: none;
+}
+.m-acc-list-content-list .am-list-item-middle {
+  background-color: #FBFBFB;
+}
+.m-acc-list-content-list-title {
+  display: flex;
+}
+.m-acc-list-content-list-title label {
+  padding-right: 10px;
+}
+.m-acc-list-content-list-title > div {
+  display: flex;
+  justify-content: space-between;
+  color: #6B7887;
+  font-size: 12px;
+  flex: 1;
+  line-height: 2.5;
+}
+.m-acc-list-content-list-title > div span {
+  display: inline-block;
+}
+.m-acc-list-content-list-title > div span:first-child {
+  padding-right: 5px;
+}
+.m-acc-list-content-list-row:after {
+  content: "";
+  position: absolute;
+  background-color: #ddd;
+  display: block;
+  z-index: 1;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  width: calc(100% - 62px);
+  height: 1px;
+  transform-origin: 50% 100%;
+  transform: scaleY(0.5);
+}
+.m-acc-list-content-list-row:last-child:after {
+  content: "";
+  position: absolute;
+  background-color: #ddd;
+  display: block;
+  z-index: 1;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  width: 100%;
+  height: 1px;
+  transform-origin: 50% 100%;
+  transform: scaleY(0.5);
+}
+.m-acc-list-content-list-row {
+  display: flex;
+  position: relative;
+}
+.m-acc-list-content-list-row .am-swipe {
+  width: 100%;
+}
+.m-acc-list-content-list-row .am-list-item {
+  padding-left: 0;
+}
+.m-acc-list-content-list-row .am-swipe-content {
+  display: flex;
+}
+.m-acc-list-content-list-row label {
+  padding: 0 10px;
+  line-height: 100px;
+}
+.m-acc-list-content-list-row i {
+  font-size: 20px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 10px 0 0 10px;
+}
+.m-acc-list-content-list-row-sr {
+  background: #FFF1F0;
+  border: 1px solid #FFD3D1;
+  color: #FA555D;
+}
+.m-acc-list-content-list-row-zc {
+  background: #EDF9E6;
+  border: 1px solid #CCFAA0;
+  color: #47C700;
+}
+.m-acc-list-content-list-row-zz {
+  background: #ECF0F2;
+  border: 1px solid #DCE1E4;
+  color: #6A7886;
+}
+.m-acc-list-content-list-row-sk {
+  background: #FFFBE6;
+  border: 1px solid #FFF1B7;
+  color: #FAAD14;
+}
+.m-acc-list-content-list-row-fk {
+  background: #E7FAFF;
+  border: 1px solid #BEEDFF;
+  color: #169BF6;
+}
+.m-acc-list-content-list-row-cbzj {
+  background: #F3EEEA;
+  border: 1px solid #DED6CF;
+  color: #8B572A;
+}
+.m-acc-list-content-list-row i:before {
+  line-height: 41px;
+  padding-left: 10px;
+}
+.m-acc-list-content-list-row-rowContent {
+  flex: 1;
+}
+.m-acc-list-content-list-row-rowContent .am-list-line {
+  background-color: #fff;
+}
+.m-acc-list-content-list-row-rowContent .am-list-line .am-list-content {
+  font-size: 12px;
+  color: #91A0AD;
+}
+.m-acc-list-content-list-row-rowContent-top {
+  display: flex;
+  justify-content: space-between;
+}
+.m-acc-list-content-list-row-rowContent-top span:first-child {
+  font-size: 16px;
+  color: #28303B;
+}
+.m-acc-list-content-list-row-rowContent-top span:nth-child(2) {
+  font-family: 'PingFangSC-Medium';
+  font-size: 16px;
+  color: #29303B;
+}
+.m-acc-list-content-list-row-rowContent-top span:nth-child(1) {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.m-acc-list-content-list-row-rowContent-top-sr {
+  color: #D43D4A !important;
+}
+.m-acc-list-content-list-row-rowContent-top-zc {
+  color: #33A100 !important;
+}
+.m-acc-list-content-list-row-rowContent-bottom {
+  display: flex;
+  padding-top: 8px;
+  justify-content: space-between;
+}
+.m-acc-list-content .am-button:before {
+  display: none;
+}
+.m-acc-list-content-audit,
+.m-acc-list-content-reject {
+  background: #FAAD14;
+  box-shadow: 0 2px 10px 0 rgba(250, 173, 20, 0.3);
+  border-radius: 2px;
+  height: 42px;
+  line-height: 42px;
+  margin: 10px;
+}
+.m-acc-list-content-audit span,
+.m-acc-list-content-reject span {
+  font-family: 'PingFangSC-Regular';
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+.m-acc-list-content-del {
+  background: #FA555D;
+  box-shadow: 0 2px 10px 0 rgba(250, 85, 93, 0.3);
+  border-radius: 2px;
+  margin: 10px;
+}
+.m-acc-list-content-del span {
+  font-family: 'PingFangSC-Regular';
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+.m-acc-list-content .am-list-footer {
+  text-align: center;
+  padding-bottom: 9px;
+}
+.m-acc-list-popover .rriconfont {
+  padding-right: 10px;
+}
+.m-acc-list .am-navbar {
+  flex: 0 0 45px;
+  background-image: linear-gradient(-179deg, #45B8FB 2%, #2FAAF9 100%);
+  background-color: initial;
+}
+.m-acc-list .am-list-view-scrollview {
+  flex: 1;
+}
+.m-acc-list .am-drawer {
+  left: auto;
+  bottom: auto;
+  width: 0px;
+  height: 0px;
+}
+.m-acc-list .am-drawer-open {
+  width: 100%;
+  height: 100%;
+}
+.m-acc-list .am-button-active {
+  background-color: #FAAD14;
+}

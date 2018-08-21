@@ -1,0 +1,120 @@
+.m-inv-upload {
+  flex: 1;
+  overflow: hidden;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+.m-inv-upload .am-navbar {
+  background-image: linear-gradient(-179deg, #45B8FB 2%, #2FAAF9 100%);
+}
+.m-inv-upload .am-input-label {
+  color: #6B7887;
+  font-size: 14px ;
+  float: right;
+}
+.m-inv-upload .am-list-item .am-input-control input {
+  font-size: 14px !important;
+}
+.m-inv-upload .am-list-item .am-list-line {
+  position: relative;
+}
+.m-inv-upload .am-list-item .am-list-line .am-list-extra {
+  position: absolute;
+  left: 90px;
+}
+.m-inv-upload .am-list-arrow-horizontal {
+  margin-left: 0px !important;
+}
+.m-inv-upload .am-list-content {
+  color: #6B7887 !important;
+  font-size: 14px !important;
+}
+.m-inv-upload .am-picker-col {
+  flex: none !important;
+}
+.m-inv-upload .am-list-item .am-input-control .fake-input-container .fake-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-right: 5px;
+  text-decoration: rtl;
+  text-align: left;
+  color: #000;
+  font-size: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.m-inv-upload .am-list-item .am-input-control .fake-input-container .fake-input-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #bbb;
+  text-align: left;
+}
+.m-inv-upload .am-list-line {
+  border-bottom: 1px solid #ddd;
+  padding-left: 15px;
+}
+.m-inv-upload .am-list-item {
+  padding-left: 0 !important;
+}
+.m-inv-upload .am-list-item.am-input-item {
+  padding-left: 0 !important;
+}
+.m-inv-upload .am-list-item .am-input-label.am-input-label-5 {
+  width: 70px !important;
+}
+.m-inv-upload-invType {
+  margin-top: 15px;
+}
+.m-inv-upload-Modal .am-modal-content {
+  border-radius: 0 !important;
+  padding-top: 0 !important;
+}
+.m-inv-upload-Modal .am-modal-content .am-modal-body {
+  padding: 0 15px 0 !important;
+}
+.m-inv-upload-btn {
+  position: absolute;
+  bottom: 10px;
+  width: 90%;
+  margin-left: 5%;
+}
+.m-inv-upload-content {
+  overflow: auto;
+  height: calc(100% - 120px);
+}
+.m-inv-upload-checking {
+  background: #FAAD14;
+  box-shadow: 0 2px 10px 0 rgba(250, 173, 20, 0.3);
+  border-radius: 2px;
+}
+.m-inv-upload-checking span {
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+.m-inv-upload-pai {
+  width: 100%;
+  height: 86px;
+  background-color: pink;
+}
+.m-inv-upload-paiPic {
+  width: 86px;
+  border-radius: 4px;
+  height: 86px;
+  margin-left: 7px;
+  float: left;
+  background-color: white;
+  border: 1px solid #dddddd;
+  text-align: center;
+  line-height: 86px;
+}

@@ -1,0 +1,27 @@
+.m-rpt-main {
+  flex: 1;
+  overflow: hidden;
+}
+.m-rpt-main .am-pull-to-refresh {
+  height: calc(100% - 44px);
+  margin-top: 44px;
+}
+.m-rpt-main .time {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+.m-rpt-main .am-pull-to-refresh-down {
+  background: #f8f8f8;
+}
+.m-rpt-main .bottomSign {
+  height: 30px;
+  line-height: 23px;
+  font-size: 12px;
+  color: #91A0AD;
+  text-align: center;
+  background: #f8f8f8;
+}
+.m-rpt-main .am-list-item:not(:last-child) .am-list-line {
+  border-bottom: 0px solid #ddd;
+}

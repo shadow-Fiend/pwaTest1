@@ -1,0 +1,168 @@
+.m-acc-charge-ticketDetail {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  /*.am-image-picker-list .am-image-picker-upload-btn:after, .am-image-picker-list .am-image-picker-upload-btn:before {
+        content: "\e6ed";
+    }*/
+}
+.m-acc-charge-ticketDetail-content1,
+.m-acc-charge-ticketDetail-content2 {
+  flex: 1;
+  overflow: auto;
+}
+.m-acc-charge-ticketDetail-content1 .unRemove .am-image-picker-item-remove,
+.m-acc-charge-ticketDetail-content2 .unRemove .am-image-picker-item-remove {
+  display: none;
+}
+.m-acc-charge-ticketDetail-list-date .am-list-line .am-list-extra,
+.m-acc-charge-ticketDetail-listMore-date .am-list-line .am-list-extra {
+  color: #28303B !important;
+}
+.m-acc-charge-ticketDetail-list-memo .am-list-line .am-input-label.am-input-label-5,
+.m-acc-charge-ticketDetail-listMore-memo .am-list-line .am-input-label.am-input-label-5 {
+  padding: 0;
+  margin-right: 0;
+}
+.m-acc-charge-ticketDetail-list-memo .am-input-control > input,
+.m-acc-charge-ticketDetail-listMore-memo .am-input-control > input {
+  font-size: 14px;
+  color: #28303B;
+}
+.m-acc-charge-ticketDetail-list-amount .am-input-control input,
+.m-acc-charge-ticketDetail-listMore-amount .am-input-control input {
+  text-align: left;
+  font-family: 'PingFangSC-Medium';
+  font-size: 16px;
+  color: #28303B;
+}
+.m-acc-charge-ticketDetail-list .am-input-control input:disabled,
+.m-acc-charge-ticketDetail-listMore .am-input-control input:disabled {
+  color: #28303B;
+}
+.m-acc-charge-ticketDetail-list .sr .am-input-control input,
+.m-acc-charge-ticketDetail-listMore .sr .am-input-control input {
+  color: #D43D4A;
+}
+.m-acc-charge-ticketDetail-list .zc .am-input-control input,
+.m-acc-charge-ticketDetail-listMore .zc .am-input-control input {
+  color: #33A100;
+}
+.m-acc-charge-ticketDetail-list .am-list-body .am-list-item-active,
+.m-acc-charge-ticketDetail-listMore .am-list-body .am-list-item-active {
+  background-color: #EDF8FE;
+}
+.m-acc-charge-ticketDetail .am-whitespace {
+  background-color: #f5f5f9;
+}
+.m-acc-charge-ticketDetail-footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.m-acc-charge-ticketDetail-footer .am-button:before {
+  display: none;
+}
+.m-acc-charge-ticketDetail-footer .audit,
+.m-acc-charge-ticketDetail-footer .reject,
+.m-acc-charge-ticketDetail-footer .save {
+  background: #FAAD14;
+  box-shadow: 0 2px 10px 0 rgba(250, 173, 20, 0.3);
+  border-radius: 2px;
+  color: #fff;
+  height: 40px;
+  line-height: 42px;
+  box-sizing: initial;
+  flex: 1;
+}
+.m-acc-charge-ticketDetail-footer .del {
+  margin: 0 10px;
+}
+.m-acc-charge-ticketDetail-footer .edit {
+  margin-right: 10px;
+}
+.m-acc-charge-ticketDetail-footer .audit {
+  margin-left: 10px;
+}
+.m-acc-charge-ticketDetail-footer .reject,
+.m-acc-charge-ticketDetail-footer .save {
+  flex: 1;
+  margin: 0 10px;
+}
+.m-acc-charge-ticketDetail-footer .del,
+.m-acc-charge-ticketDetail-footer .edit {
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 1px 4px 0 rgba(146, 160, 173, 0.1);
+  border-radius: 2px;
+  color: #FAAD14;
+  height: 40px;
+  line-height: 42px;
+  box-sizing: initial;
+  flex: 1;
+}
+.m-acc-charge-ticketDetail .am-list-item .am-list-line .am-list-extra {
+  text-align: left;
+}
+.m-acc-charge-ticketDetail .am-list-item .am-list-line .am-list-content {
+  width: 85px;
+  flex: none;
+  font-family: 'PingFangSC-Regular';
+  font-size: 14px;
+  color: #6B7887;
+}
+.m-acc-charge-ticketDetail .am-list-item .am-list-line .am-list-extra {
+  font-family: 'PingFangSC-Regular';
+  font-size: 14px;
+  color: #28303B;
+}
+.m-acc-charge-ticketDetail .am-list-item .am-input-label.am-input-label-5 {
+  font-family: 'PingFangSC-Regular';
+  font-size: 14px;
+  color: #6B7887;
+}
+.m-acc-charge-ticketDetail .am-list-item .am-list-line .am-list-arrow {
+  position: absolute;
+  right: 10px;
+}
+.m-acc-charge-ticketDetail .am-tag {
+  margin-right: 8px;
+}
+.m-acc-charge-ticketDetail .am-tag-active {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjE0cHgiIGhlaWdodD0iMTRweCIgdmlld0JveD0iMCAwIDE0IDE0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0Ny4xICg0NTQyMikgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+Q29tYmluZWQgU2hhcGU8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0i5rWB5rC0IiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iMDUt54K55Ye75qCH562+LeW9leWFpeWQjiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI0MS4wMDAwMDAsIC01MTMuMDAwMDAwKSIgZmlsbD0iIzE4OUNGNiI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yNTUsNTEzIEwyNTUsNTI3IEwyNDEsNTI3IEwyNTUsNTEzIFogTTI0OC45MzYzOTcsNTI1LjgwMjk1OCBDMjQ4Ljk2NDkwOSw1MjUuODMxMTc3IDI0OC45OTYyMjQsNTI1Ljg1NzM4NSAyNDkuMDMwMjQzLDUyNS44ODEyMDUgQzI0OS4zNDkxMzQsNTI2LjEwNDQ5NSAyNDkuNzg1OTYzLDUyNi4wMjIzMzggMjUwLjAxMDg1OCw1MjUuNzAxMTU0IEwyNTMuNzg1MDUyLDUyMC4zMTEwNDYgQzI1NC4wMTc5ODUsNTE5Ljk3ODM4NCAyNTMuOTM1NTM4LDUxOS41NDk3MzMgMjUzLjYxODg1NCw1MTkuMzI3OTg5IEMyNTMuMjk5OTYzLDUxOS4xMDQ2OTggMjUyLjg2MzEzNCw1MTkuMTg2ODU2IDI1Mi42MzgyMzksNTE5LjUwODAzOSBMMjQ5LjI2NTczMyw1MjQuMzI0NDc3IEwyNDcuNjk3NTA3LDUyMy4yMjYzOTQgQzI0Ny4zODM4NzYsNTIzLjAwNjc4NyAyNDYuOTQ3MDA3LDUyMy4wODM0NzkgMjQ2LjcyNTI2Miw1MjMuNDAwMTYzIEMyNDYuNTAxOTcyLDUyMy43MTkwNTQgMjQ2LjU3OTI4OSw1MjQuMTUyNDkzIDI0Ni44OTQ1LDUyNC4zNzMyMDcgTDI0OC45MzYzOTcsNTI1LjgwMjk1OCBaIiBpZD0iQ29tYmluZWQtU2hhcGUiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==) no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.m-acc-charge-ticketDetail .am-navbar {
+  background-image: linear-gradient(-179deg, #45B8FB 2%, #2FAAF9 100%);
+  background-color: initial;
+}
+.m-acc-charge-ticketDetail-accounts {
+  display: flex;
+  margin-left: 15px;
+}
+.m-acc-charge-ticketDetail-accounts-in {
+  width: 50%;
+  padding-left: 0;
+  border-right: 1px solid #EAEAEA;
+}
+.m-acc-charge-ticketDetail-accounts-out {
+  padding-left: 0;
+  flex: 1;
+}
+.m-acc-charge-ticketDetail-accounts-out > div {
+  padding-left: 15px;
+}
+.m-acc-charge-ticketDetail-inOutTitle,
+.m-acc-charge-ticketDetail-settleTitle {
+  font-weight: 700;
+}
+.am-modal-wrap .am-modal-content {
+  border-radius: 0;
+}
+.am-modal-wrap .am-list-body {
+  max-height: 200px;
+}
+.am-modal-wrap .am-list-body:after {
+  display: none !important;
+}
